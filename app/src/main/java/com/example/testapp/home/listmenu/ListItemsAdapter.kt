@@ -7,14 +7,14 @@ import com.example.testapp.home.bannerlist.BannerItemDiffCallback
 import javax.inject.Inject
 
 class ListItemsAdapter @Inject constructor(callback: BannerItemDiffCallback)
-    : androidx.recyclerview.widget.ListAdapter<BannerItem, ListItemViewHolder>(callback) {
+    : androidx.recyclerview.widget.ListAdapter<BannerItem, BannerItemViewHolder>(callback) {
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListItemViewHolder {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): BannerItemViewHolder {
         val inflater = LayoutInflater.from(parent.context)
-        return ListItemViewHolder(ItemListMenuBinding.inflate(inflater, parent, false))
+        return BannerItemViewHolder(ItemListMenuBinding.inflate(inflater, parent, false))
     }
 
-    override fun onBindViewHolder(viewHolder : ListItemViewHolder, position: Int) {
+    override fun onBindViewHolder(viewHolder : BannerItemViewHolder, position: Int) {
         val memeItem = getItem(position)
         viewHolder.bind(memeItem)
     }

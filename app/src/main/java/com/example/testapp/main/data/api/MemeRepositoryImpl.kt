@@ -6,7 +6,7 @@ import javax.inject.Inject
 
 class MemeRepositoryImpl @Inject constructor(
     application: Application,
-    private val apiService: MemeApiService,
+    private val apiService: ApiService,
 ) : MemeRepository {
 
 

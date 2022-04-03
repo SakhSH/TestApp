@@ -4,7 +4,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.testapp.R
 import com.example.testapp.databinding.ItemListMenuBinding
 
-class ListItemViewHolder(private val binding: ItemListMenuBinding) :
+class BannerItemViewHolder(private val binding: ItemListMenuBinding) :
     RecyclerView.ViewHolder(binding.root) {
 
     fun bind(listItem: BannerItem) {
