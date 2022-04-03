@@ -1,7 +1,7 @@
 package com.example.testapp.main.di
 
-import com.example.testapp.main.data.api.MemeRepositoryImpl
-import com.example.testapp.main.domain.MemeRepository
+import com.example.testapp.main.data.api.CocktailsRepositoryImpl
+import com.example.testapp.main.domain.CocktailRepository
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn
@@ -14,5 +14,5 @@ interface RepositoryModule {
 
     @Singleton
     @Binds
-    fun provideMemeRepository(impl: MemeRepositoryImpl): MemeRepository
+    fun provideMemeRepository(impl: CocktailsRepositoryImpl): CocktailRepository
 }

@@ -6,7 +6,7 @@ import javax.inject.Inject
 
 class CocktailMapper @Inject constructor() {
 
-    fun mapAllCocktailsDto(dtoItems: List<CocktailDto>) = dtoItems.map(::mapCocktailDto)
+    fun mapAllCocktailsDto(dtoItems: List<CocktailDto>) = dtoItems.map(::mapCocktailDto).filter{ it.image != null }
 
     private fun mapCocktailDto(dtoItem: CocktailDto) = with(dtoItem){
 

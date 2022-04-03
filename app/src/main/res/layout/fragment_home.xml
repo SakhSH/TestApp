@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".home.HomeFragment">
+    tools:context=".home.presentation.HomeFragment">
 
     <ProgressBar
         android:id="@+id/loader"
@@ -41,7 +41,7 @@
                 android:orientation="horizontal"
                 android:paddingLeft="16dp"
                 app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-                tools:listitem="@layout/item_banner_menu" />
+                />
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/rv_category"
@@ -50,7 +50,7 @@
                 android:orientation="horizontal"
                 android:paddingLeft="16dp"
                 app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-                tools:listitem="@layout/item_category_menu" />
+                />
         </LinearLayout>
 
     </com.google.android.material.appbar.CollapsingToolbarLayout>
@@ -59,6 +59,7 @@
         android:id="@+id/rv_food"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         tools:listitem="@layout/item_list_menu" />
 
 </LinearLayout>

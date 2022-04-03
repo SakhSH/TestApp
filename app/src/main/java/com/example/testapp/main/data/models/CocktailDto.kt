@@ -10,11 +10,11 @@ data class CocktailDto(
     val id: Int,
     @SerializedName("strDrink")
     @Expose
-    val topText: String?,
+    val topText: String,
     @SerializedName("strInstructions")
     @Expose
-    val bottomText: String?,
-    @SerializedName("strImageSource")
+    val bottomText: String,
+    @SerializedName("strDrinkThumb")
     @Expose
-    val image: String?
+    val image: String
 )
