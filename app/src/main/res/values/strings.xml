@@ -3,4 +3,16 @@
     <string name="title_home">Меню</string>
     <string name="title_dashboard">Профиль</string>
     <string name="title_notifications">Корзина</string>
+    <string name="coctail_starts_on_a_chip">Напитки</string>
+    <string name="coctail_starts_on_b_chip">Пицца</string>
+    <string name="coctail_starts_on_m_chip">Комбо</string>
+    <string name="coctail_starts_on_d_chip">Десерты</string>
+    <string name="coctail_starts_on_else_chip">Соусы</string>
+    <string name="picture_content_descr">Картинка</string>
+    <string name="qr_code_menu_text">Qr code</string>
+
+    <string-array name="city">
+        <item>Москва</item>
+        <item>Южно-Сахалинск</item>
+    </string-array>
 </resources>

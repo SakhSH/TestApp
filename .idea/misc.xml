@@ -4,11 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/79963/AndroidStudioProjects/TestApp2/app/src/main/res/drawable/ic_baseline_call_to_action_24.xml" value="0.17407407407407408" />
+        <entry key="..\:/Users/79963/AndroidStudioProjects/TestApp2/app/src/main/res/drawable/ic_baseline_qr_code_24.xml" value="0.19907407407407407" />
         <entry key="..\:/Users/79963/AndroidStudioProjects/TestApp2/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.17407407407407408" />
         <entry key="..\:/Users/79963/AndroidStudioProjects/TestApp2/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/79963/AndroidStudioProjects/TestApp2/app/src/main/res/layout/fragment_home.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/79963/AndroidStudioProjects/TestApp2/app/src/main/res/layout/item_list_menu.xml" value="0.18" />
         <entry key="..\:/Users/79963/AndroidStudioProjects/TestApp2/app/src/main/res/menu/bottom_nav_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/79963/AndroidStudioProjects/TestApp2/app/src/main/res/menu/main_screen_menu.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>
