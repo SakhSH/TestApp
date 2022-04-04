@@ -1,4 +1,4 @@
-package com.example.testapp.home.presentation
+package com.example.testapp.menu.presentation
 
 import androidx.recyclerview.widget.DiffUtil
 import com.example.testapp.main.domain.models.CocktailList

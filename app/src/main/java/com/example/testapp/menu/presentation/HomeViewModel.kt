@@ -1,10 +1,10 @@
-package com.example.testapp.home.presentation
+package com.example.testapp.menu.presentation
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.testapp.home.domain.usecases.GetAllCocktailsUseCase
+import com.example.testapp.menu.domain.usecases.GetAllCocktailsUseCase
 import com.example.testapp.main.domain.models.CocktailList
 import com.example.testapp.main.domain.models.ScreenState
 import dagger.hilt.android.lifecycle.HiltViewModel

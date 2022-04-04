@@ -1,4 +1,4 @@
-package com.example.testapp.home.domain.usecases
+package com.example.testapp.menu.domain.usecases
 
 import com.example.testapp.main.domain.CocktailRepository
 import com.example.testapp.main.domain.models.CocktailList

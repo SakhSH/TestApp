@@ -1,8 +1,7 @@
-package com.example.testapp.home.presentation
+package com.example.testapp.menu.presentation
 
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.example.testapp.R
 import com.example.testapp.databinding.ItemListMenuBinding
 import com.example.testapp.main.domain.models.CocktailList
 

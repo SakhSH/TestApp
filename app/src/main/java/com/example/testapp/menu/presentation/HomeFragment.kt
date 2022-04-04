@@ -1,4 +1,4 @@
-package com.example.testapp.home.presentation
+package com.example.testapp.menu.presentation
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -81,15 +81,12 @@ class HomeFragment : Fragment() {
 
     private fun setupSpinner() {
         val spinner: Spinner = binding.spinner
-// Создайте ArrayAdapter, используя массив строк и макет счетчика по умолчанию.
         ArrayAdapter.createFromResource(
             requireContext(),
             R.array.city,
             android.R.layout.simple_spinner_item
         ).also { adapter ->
-            // Укажите макет, который будет использоваться при появлении списка вариантов.
             adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
-            // Примените адаптер к спиннеру
             spinner.adapter = adapter
         }
     }
